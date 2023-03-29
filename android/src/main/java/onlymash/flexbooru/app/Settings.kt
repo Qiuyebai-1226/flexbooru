@@ -252,10 +252,10 @@ object Settings {
         set(value) = sp.edit().putString(
             ORDER_TOKEN_KEY, value).apply()
 
-    var isOrderSuccess: Boolean
-        get() = sp.getBoolean(ORDER_SUCCESS_KEY, false)
-        set(value) = sp.edit().putBoolean(
-            ORDER_SUCCESS_KEY, value).apply()
+    var isOrderSuccess: Boolean =true
+        // get() = sp.getBoolean(ORDER_SUCCESS_KEY, false)
+        // set(value) = sp.edit().putBoolean(
+        //     ORDER_SUCCESS_KEY, value).apply()
 
     var orderDeviceId: String
         get() {

@@ -13,7 +13,7 @@ A booru client for Android, support [Danbooru](https://github.com/r888888888/dan
 
 ## Translate
 
-Click the icon below to translate this app.
+Click the icon below to translate this app..
 
 [![Crowdin](https://badges.crowdin.net/flexbooru/localized.svg)](https://crowdin.com/project/flexbooru)
 
